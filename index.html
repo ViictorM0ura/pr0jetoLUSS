@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio Paraguaçu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mapeamento da bacia rio paraguaçu</h1>
+
+
+        <input type="text" id="searchInput" placeholder="Pesquisar por CEP..." onkeyup="filtrarTabela()">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Município</th>
+                    <th>Ano</th>
+                    <th>Código (CEP)</th>
+                    <th>Área (km²)</th>
+                    <th>Nome</th>
+                    <th>Bacia</th>
+                </tr>
+            </thead>
+            <tbody id="data-table">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
